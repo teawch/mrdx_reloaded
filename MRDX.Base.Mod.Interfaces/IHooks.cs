@@ -75,6 +75,11 @@ public delegate int DrawMonsterCardWitheringValue(nint self);
 [Function(CallingConventions.Fastcall)]
 public delegate int DrawIntWithHorizontalSpacing(short x, short y, int number);
 
+[HookDef(BaseGame.Mr2, Region.Japan | Region.Us,
+    "55 8B EC 83 E4 F8 83 EC 34 A1 ?? ?? ?? ?? 33 C4 89 44 24 ?? 53 56 57 8B DA")]
+[Function(CallingConventions.Fastcall)]
+public delegate int WriteFile(string filename, nint data, int size);
+
 public interface IHooks
 {
     Task<IHook<T>> AddHook<T>(T func);

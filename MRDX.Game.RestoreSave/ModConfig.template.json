@@ -1,0 +1,33 @@
+{
+  "ModId": "MRDX.Game.RestoreSave",
+  "ModName": "Save Game Time Machine",
+  "ModAuthor": "jroweboy",
+  "ModVersion": "{{ MOD_VERSION }}",
+  "ModDescription": "Quickly reload old save files",
+  "ModDll": "MRDX.Game.RestoreSave.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/MRDX.Game.RestoreSave.dll",
+  "ModR2RManagedDll64": "x64/MRDX.Game.RestoreSave.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "MRDX.Game.RestoreSave.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "jroweboy",
+      "RepositoryName": "mrdx_reloaded",
+      "UseReleaseTag": false,
+      "AssetFileName": "Mod.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks",
+    "MRDX.Base.Mod"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "mf2.exe"
+  ],
+  "ProjectUrl": ""
+}

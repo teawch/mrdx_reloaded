@@ -23,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRDX.Base.Mod", "MRDX.Base.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRDX.Game.MonsterEditor", "MRDX.Game.MonsterEditor\MRDX.Game.MonsterEditor.csproj", "{B684E5AF-F799-4417-BD7D-F5FE089DC011}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRDX.Ui.RawTechValues", "MRDX.Ui.RawTechValues\MRDX.Ui.RawTechValues.csproj", "{F318C5F6-4AF7-467D-B877-927AED7F02AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRDX.Ui.RawTechValues", "MRDX.Ui.RawTechValues\MRDX.Ui.RawTechValues.csproj", "{F318C5F6-4AF7-467D-B877-927AED7F02AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRDX.Qol.TurboInput", "MRDX.Qol.TurboInput\MRDX.Qol.TurboInput.csproj", "{E23A6883-BCDF-4386-87F7-49DCE0085E9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRDX.Qol.TurboInput", "MRDX.Qol.TurboInput\MRDX.Qol.TurboInput.csproj", "{E23A6883-BCDF-4386-87F7-49DCE0085E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRDX.Game.DownPatcher", "MRDX.Game.DownPatcher\MRDX.Game.DownPatcher.csproj", "{B348A2F8-9B6D-4A19-864A-00A586A1D7CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRDX.Game.RestoreSave", "MRDX.Game.RestoreSave\MRDX.Game.RestoreSave.csproj", "{DC50FFF4-3D31-4811-927C-E365793B356D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,14 +77,22 @@ Global
 		{B684E5AF-F799-4417-BD7D-F5FE089DC011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B684E5AF-F799-4417-BD7D-F5FE089DC011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B684E5AF-F799-4417-BD7D-F5FE089DC011}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E23A6883-BCDF-4386-87F7-49DCE0085E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E23A6883-BCDF-4386-87F7-49DCE0085E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E23A6883-BCDF-4386-87F7-49DCE0085E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E23A6883-BCDF-4386-87F7-49DCE0085E9B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F318C5F6-4AF7-467D-B877-927AED7F02AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F318C5F6-4AF7-467D-B877-927AED7F02AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F318C5F6-4AF7-467D-B877-927AED7F02AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F318C5F6-4AF7-467D-B877-927AED7F02AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23A6883-BCDF-4386-87F7-49DCE0085E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23A6883-BCDF-4386-87F7-49DCE0085E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23A6883-BCDF-4386-87F7-49DCE0085E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23A6883-BCDF-4386-87F7-49DCE0085E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B348A2F8-9B6D-4A19-864A-00A586A1D7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B348A2F8-9B6D-4A19-864A-00A586A1D7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B348A2F8-9B6D-4A19-864A-00A586A1D7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B348A2F8-9B6D-4A19-864A-00A586A1D7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC50FFF4-3D31-4811-927C-E365793B356D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC50FFF4-3D31-4811-927C-E365793B356D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC50FFF4-3D31-4811-927C-E365793B356D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC50FFF4-3D31-4811-927C-E365793B356D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

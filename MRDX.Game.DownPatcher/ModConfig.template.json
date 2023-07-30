@@ -1,0 +1,32 @@
+{
+  "ModId": "MRDX.Game.DownPatcher",
+  "ModName": "MRDX Down Patcher",
+  "ModAuthor": "jroweboy",
+  "ModVersion": "{{ MOD_VERSION }}",
+  "ModDescription": "Unapplies the offical game updates to revert MRDX to an older version",
+  "ModDll": "MRDX.Game.DownPatcher.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/MRDX.Game.DownPatcher.dll",
+  "ModR2RManagedDll64": "x64/MRDX.Game.DownPatcher.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "MRDX.Game.DownPatcher.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "jroweboy",
+      "RepositoryName": "mrdx_reloaded",
+      "UseReleaseTag": false,
+      "AssetFileName": "Mod.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "mf2.exe"
+  ],
+  "ProjectUrl": ""
+}
